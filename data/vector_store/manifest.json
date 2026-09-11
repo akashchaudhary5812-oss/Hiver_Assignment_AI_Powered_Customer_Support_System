@@ -1,0 +1,6 @@
+{
+  "fingerprint": "5263dc68f69fa42706593cb7e35084c65dc754b43a34affeb45e123a04886922",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "retrieval_strategy": "Hybrid (Dense FAISS Cosine + Lexical TF-IDF)",
+  "document_count": 3000
+}

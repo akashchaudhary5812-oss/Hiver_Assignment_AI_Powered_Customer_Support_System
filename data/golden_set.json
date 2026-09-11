@@ -1,0 +1,4005 @@
+[
+  {
+    "id": "GOLD-001",
+    "customer_query": "Weird day - Best customer service from a telco (granted, not related to a cell phone) Worst customer service from",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "I'm sorry for the poor experience! Without providing account details can you tell us about your experience with us today?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-002",
+    "customer_query": "Hey, , you say my order was lost in transit but won't let me cancel it. What gives?",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to hear your order was lost in transit! Were we able to offer any insight when you had reached out to us?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-003",
+    "customer_query": "I don’t understand why you guys have such incompetent delivery people my development is two years old and I keep getting packages returned, what is the point of free shipping if packages keep getting returned.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "I'm so sorry for the delivery trouble! Have you had a chance to reach us for available options: https://t.co/hApLpMlfHN?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-004",
+    "customer_query": "Really why do you feel the need to always use outer boxes that are 3 times too big and waste both the box and all the paper filler https://t.co/7180C6S0fN",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry about the excess packaging! You can leave feedback here: https://t.co/xzTWP8gm7z to help us improve.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-005",
+    "customer_query": "Hi, ive bought £60 worth of amazon gift cards but just noticed the special offer. Will i have to cancel and reorder to get it?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, can you send us a link to the special offer you're referring to?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-006",
+    "customer_query": "please give me refund or replacement the worst service ever get do something I want to cancel my order but I can't why....",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "I understand your concern about the order. Please flag it to our support team here: https://t.co/vlvfJr4nN9",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-007",
+    "customer_query": "Been waiting MONTHS for a duvet I purchased on amazon. Clearly not showing up..I try to get my $ back but the user deleted their account(clearly trying to scam ppl) So now I’m out $45. I thought amazon stood by their customers?",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm so sorry for the poor experience! When you spoke to us, what information or options were provided?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-008",
+    "customer_query": "I am not getting what you have done and how I will get my refund today in my bank account. I have 2 messages from your end both says different story. That means I will only need to wait for today? https://t.co/Xto0qhF2t1",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry about the confusion. We're following up on this and we'll reach out to you soon with an update on this. Also, please don’t provide your order details as we consider them to be personal info. Our page is visible to public.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-009",
+    "customer_query": "Amazon prime is the biggest scam bullshit ever. Guaranteed 2 day shipping my ass https://t.co/t3j1LUM10S",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for the delay! Please let us know if it doesn't arrive by November 28. We want to make sure you get it.",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-010",
+    "customer_query": "Why am I being charged for Amazon prime when I haven't signed up for anything or used Amazon in months?",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "So sorry for any trouble! We're here to help in any way we can. Are you able to see the membership in your account here: https://t.co/jtZnYKbs0U?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-011",
+    "customer_query": "My mother just spent over an hour on the phone with your customer service, only to find out one of her gift cards was redeemed back to the store where she bought it with NO AUTHORIZATION to do that. I’ve never encountered such incompetents like your employees.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "I'm sorry to hear about the recent gift card trouble. Has your mom been able to contact the retailer these gift cards were purchased from?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-012",
+    "customer_query": "My item is still not shipped paid by gift card please get your act together and ship my dvd external hd usb",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry your order has yet to be shipped. Have we missed the delivery date given in your confirmation e-mail?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-013",
+    "customer_query": "thanks for the offer of assistance in locating something you advertised on FB and never getting back to me. Poor cust svc!!",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the frustration! What can we help you find?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-014",
+    "customer_query": "I asked to not renew my Fresh membership in May and they terminated my pre paid Prime membership today. #wtf",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I understand your frustration, Marc. When you have the time, give us another shout here: https://t.co/hApLpMlfHN We'd be happy to correct any mistake made.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-015",
+    "customer_query": "I don't like being called a liar. I ordered my item which is now delayed until the 20th, yet you list the same item for next day? :( https://t.co/8Zu8rUawQl",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "So sorry for the trouble! We always aim to meet the delivery date provided in the confirmation e-mail! Has this date passed?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-016",
+    "customer_query": "and amazon, unbeknownst to be signed me up for prime and charged me. What the flying fuck",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello! I'm sorry for the unexpected charge. You may cancel your Prime membership at any time by clicking here: https://t.co/7GQ89jPb5C or if you prefer, you may contact us via phone or chat here: https://t.co/hApLpMlfHN Let us know if we may assist further.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-017",
+    "customer_query": "Ordered an #Iphone7 from and got a fake Chinese iPhone. What rubbish. Can't trust #Amazon for electronics. I want a refund. https://t.co/fPx3haGnRQ",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry for the mess. Please report this to our support team here: https://t.co/vlvfJr4nN9. They'll assist you with it.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-018",
+    "customer_query": ". why is my account being hacked like every week now...! https://t.co/zToW3sG9CC",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for the account issues, Liza! Have you received an e-mail from our Account Specialists?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-019",
+    "customer_query": "did not send my winning voucher so poor compancy did not send my winning voucher ??? #fakeamazonin",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "social media team so that we will check and assist you. 2/2",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-020",
+    "customer_query": "Hi. We accidentally bought multiple copies of a Kindle book and only need 1. Can you help us return the extra ones? It's a Xmas present so we're unable to log onto the individual's Kindle. Thx!",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to hear about your accidental purchase! Are you able to refund the book using the steps here: https://t.co/0s1xDSYXwb? If not, we'd love to help! You can reach us via phone or chat here: https://t.co/EKXRLsnxJu",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-021",
+    "customer_query": "September 14th 2017. I ordered 2 products from you. I have called i have e-mailed. WHAT IS GOING ON. You have not returned my calls or e-mails. I WOULD LIKE A REFUND OR the PRODUCTI HAVE BEEN PATENTLY WAITING #gearguppy #Instagram #Amazon #SCAM #Parents",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry to hear you haven't received your items yet. What's the latest tracking status show here: https://t.co/Y5jpI9gRhE?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-022",
+    "customer_query": "Bad customer service will be your downfall. Hard to contact, hard to resolve an issue. Just canceled prime... not kissing your ass!",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, sorry for the poor experience. Without posting account info can you tell us more? What was advised when in touch?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-023",
+    "customer_query": "please help, I ordered a gift voucher which was allegedly signed for on Monday but it has not been received...",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! Have you been able to reach out to us by phone or chat? If not, please click here: https://t.co/JzP7hlA23B",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-024",
+    "customer_query": "Last time I bother to pre order from Ordered Sonic Forces to get an email saying its delayed but no one knows when it will arrive",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, what info is displayed here: https://t.co/BQmcNXViiI Have you received an email update?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-025",
+    "customer_query": "hi there just got my account back from an issue. now i have lost my $5.00 gift card as well as my preorder for a game on sale..",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Uh oh! We'd like to take a look into this with you. Please reach out to us when it's convenient: https://t.co/CYqkdUakWJ",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-026",
+    "customer_query": "It's Wednesday, right? So how's Prime two-day shipping arriving on Monday? Isn't Friday two days from now? And did y'all also cancel the weekend? https://t.co/CFnDf4eVlA",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Prime two day shipping refers to the time is ships, not from the time the order is placed. Depending on location, it might also not include weekends. To learn more check here: https://t.co/J5NIAjhf2z",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-027",
+    "customer_query": "Why can’t we watch Arjun Reddy in U.S.A. on Amazon Prime Video? Been waiting for a while not showing up on Amazon Prime.",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "The content is geo-location specific, you will only be able to view this in India.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-028",
+    "customer_query": "Quick question,if you have 3 devices linked to your Amazon account, can you watch Prime Video on a 4th if you use the website?",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hey Daniel. Please get in touch - https://t.co/JzP7hlA23B a digital specialist will be happy to assist. Keep us posted.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-029",
+    "customer_query": "I was sent the wrong item! HELP! Who do I contact??? Need it ASAP",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the mix-up! Please reach out to us here so we can review our available options: https://t.co/hApLpMlfHN",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-030",
+    "customer_query": "I accidently preordered 3 copies of ww2 and I forgot to cancel them then my account got suspended so whud my orders go through",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Uh oh, three copies?! 😰 Please reach out to us via this link so that we can help: https://t.co/hApLpMlfHN Thanks!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-031",
+    "customer_query": "from bng unpaid ambassador of Amazon to dissatisfied customer. Requested return of damaged phone but not allowing me",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High-value damaged / tampered shipment requires specialist escalation and carrier investigation.",
+    "reference_response": "Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-032",
+    "customer_query": "contacted chat support weeks ago about not getting a gift card for a survey & told they’d get back to me in a few days. Nothing. Emailed again last week. Still nothing.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Terribly sorry for the frustrating experience, Krista! We'd like to help as much as possible. Could you please tell me more about this survey so I can look into this for you? Do you have a link to it? Thanks in advance!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-033",
+    "customer_query": "are not working there work properly and also they are making fool to the customers please help me.... https://t.co/ufMMq4Y6HU",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Our team has sent a correspondence to your registered email address. Kindly check for the same. Also, please don't provide your order details, as we consider it to be personal information. Our Twitter page is visible to the public.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-034",
+    "customer_query": "Wow, Just got scammed on several orders on Amazon, they was listed as PRIME! Never had this before, watch out people.",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for the poor experience! Do you have a current order that is late/delayed that we can help you with?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-035",
+    "customer_query": "Does Prime no longer offer next day delivery? Because what I ordered yesterday is arriving Monday and what I ordered tonight is being delivered Tuesday.",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, Laura! Our shipping method time refers to the transit time of the parcel, and some items aren't able to be shipped right away. Please let us know if we ever miss the delivery date given to you via checkout/e-mail!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-036",
+    "customer_query": "It is quite a comment because every time you're courier partners delay delivery dates by giving fake reasons. I'm supposed to get delivery of two orders today but both are delayed now. https://t.co/3QxONCvqdJ",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry for the hassle with delivery. We certainly did not expect this to happen. Kindly report this to our support team here: https://t.co/rS49hgaADF so that we can assist you accordingly.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-037",
+    "customer_query": "Someone compromised my account... Why doesn’t have the tools to address my issue immediately... it’s 2017, the process is antiquated",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Which Amazon website are you having the issue on?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-038",
+    "customer_query": "you guys should come up with better verification details instead of asking while billing/ shipping addresses. Make the customer support more efficient and less time taking. #suggestion",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Thanks for the suggestion, Shobit. I've noted your comments and will forward this feedback internally.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-039",
+    "customer_query": "I was literally sitting in my living room. What problem did you experience...? https://t.co/ctUNaH68rp",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That's definitely not what we want to happen! I'm sorry for the delay. Typically, late packages arrive the next business day. If it's not received tomorrow, please give us a call or chat to look into options: https://t.co/hApLpMlfHN",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-040",
+    "customer_query": "WTF! you guys just signed me for Amazon prime and charged me USD$100.00 without me authorizing it!!! thats stealing!!!!! WTF!",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I understand your concern! If you haven't used the benefits, you can cancel for a refund here: https://t.co/K4Jpi9xlfJ",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-041",
+    "customer_query": "The expected day of delivery was 16th of October. I've not received the order yet, nor am I able to track down the same",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "This was unintended from our end. Kindly reach our support team here: https://t.co/vlvfJr4nN9. We'll have it checked.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-042",
+    "customer_query": "Your new update really needs taken down. Just got it on my iPad & all I get is Amazon header & search bar.",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry about this. Have you tried uninstalling and reinstalling the app?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-043",
+    "customer_query": "not refund money even after one month saying I returned wrong item even I gave correct product need help",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "The resolution provided in the correspondence is the best we are able to offer. Appreciate your understanding. (2/2)",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-044",
+    "customer_query": "Why subtitles are available only for S01E01 of This is Us, but not for the rest of the episodes?",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Could you please help us with the exact title name you're referring to ?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-045",
+    "customer_query": "I ordered 8 DVDs, your Kentucky fulfillment center threw them into a 13x18\" envelope instead of a box to let them get bounced around and crushed on the way. I got an envelope full of plastic chunks and loose discs. Online and telephone customer service was useless. 😡",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! I'm so sorry your DVDs arrived crushed! This is not how we want items delivered. Please visit the Online Return Center here; https://t.co/DLe9KUYAqA.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-046",
+    "customer_query": "Dear my order #407-7208892-2195534 is suppose to deliver by 31 Oct 2017... Still not received...",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I’m sorry about the issue you’re facing with delivery. Let us look into it. (1/3)",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-047",
+    "customer_query": "Many times i have told that mobile is not supporting the JIO sim and i am using only JIO sim. I don't have any other issue with this mobile. IT is difficult for me to continue with this mobile. Today is the last date after that i will unable to return",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I get your concern. As mentioned earlier, we have sent you a correspondence with regards to your concern. For further assistance, please reply to the correspondence which you have received. We'll assist you further.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-048",
+    "customer_query": "I just received a mail from a review I never did. Its not even my name. My account may have been compromised",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Hello Alexandre. From which of our markets did you receive the email? Amazon Brasil or https://t.co/nUUp5MLhYl?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-049",
+    "customer_query": "any offers on fifa 18 for ps4 ?",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Yes there are a couple of offers on FIfa 18 for PS4. Please check this link: https://t.co/e0naxuhqB3 for more information.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-050",
+    "customer_query": "what in the fresh hell is wrong with your search bar?! Glad my kid wasn’t looking for the calendar herself. There were worse, too! https://t.co/ODMutDd6RO",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no, can you send me the link please?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 3,
+      "empathy": 3,
+      "actionability": 3,
+      "overall": 3.0
+    }
+  },
+  {
+    "id": "GOLD-051",
+    "customer_query": "even after so much of torture and harassment , I have not received my money yet ..#worstcompany",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Critical delivery failure or high customer distress requiring supervisor intervention or courier tracer.",
+    "reference_response": "Sorry to hear of the poor experience. Without giving any account info, what issue are you having?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-052",
+    "customer_query": "took u up on offer- £6 add if I bought giftcard for £30 - I was approved-where is it? giftcard still says £30",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I believe the offer puts a promotional balance on your account. Have you checked your e-mail for a benefit confirmation?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-053",
+    "customer_query": "Thanks for reply. Guest has left, this is a return to sender situation. Can I PM the tracking? It seems this is a package an Amazon driver delivered. https://t.co/sqh1c0BWCU",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi Nicole- would this need to be returned to Amazon? We would usually need the account holder to contact us to be able to access that order but you can contact us and we'll give you our return address: https://t.co/hApLpMlfHN",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-054",
+    "customer_query": "hi team, I returned a product but haven't got full refund (₹ 5 deducted don't know why) I had placed return request within 5 min of receiving the order",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Once a refund is issued, you'll be receiving an email with the breakdown of the amount refunded. Kindly check your registered email and in case you have any concerns, please reach out to our support team here: https://t.co/rS49hgaADF and we'll assist you accordingly.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-055",
+    "customer_query": "IS DICKING ME AROUND! First the broken TV, then a replacement that should've been here by 8p and then at 801p o get this #furious https://t.co/HCMpmT3OeV",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High-value damaged / tampered shipment requires specialist escalation and carrier investigation.",
+    "reference_response": "I completely understand any frustration. Just to confirm, have you had a chance to contact the carrier for more information about the delivery? If so, were they able to provide more details?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-056",
+    "customer_query": "hi, can you help? I am in urgent need of replacement of a product delivered defective to me and picked up from me today.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "The replacement will be released as soon as the original order is acknowledged at our end, Milap. Please check the latest update on that with our support team here: https://t.co/vlvfJr4nN9",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-057",
+    "customer_query": "hi sir, i m from india and wanted to drag your attention for amazon india due to that i m suffering from financial and mental harassment as they are not able to provide me the invoice copy even after escalating it to higher authority,seek your intervention in this.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the experience you've had. We never intended this stretch. As requested, please reply to the correspondence we've sent to your registered email. We'll check your details and share an update with you accordingly.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-058",
+    "customer_query": "Is the reloadable gift card physical.I'm trying to understand the concept.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello Sharon, if you want to reload the gift card you do so by going to the website and purchasing an https://t.co/nUUp5MLhYl Balance Reload. More information can be found here:https://t.co/yoPNHzpUFX",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-059",
+    "customer_query": "I forgot to cancel my amazon prime free trial and I’m PI$$ED",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! We're here to help. It's not too late to cancel and possibly get a refund: https://t.co/fXZp9PepBY I hope this helps!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-060",
+    "customer_query": "Ordered on 26 Sep 2017 Order# 407-1273373-8553911 I should have received Rs.100 cashback for this purchase but not received",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I 'm sorry about the delay in cash back. Please connect with us here: https://t.co/vlvfJr4nN9. 1/3",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-061",
+    "customer_query": "I just Received my package from but major problem is that I haven't received the phone! The seal of the box was already tempered! So tell me what the fuck I should do now! Replace it Asap! 😡😡😡 https://t.co/kPnKnrIzMU",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Apologies for the experience you had with this order. Please report this to our support team here: https://t.co/vlvfJr4nN9. We'll assist you further.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-062",
+    "customer_query": "So, my package seems to have leaked. https://t.co/ZDtE7dEhYy",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! I'm sorry for the damaged item, Pablo. What site do you use to shop? Is it https://t.co/nUUp5MLhYl, co.uk or another?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-063",
+    "customer_query": "Booo !! Tracking said my kids costumes would be here by 8pm at 6:30, now it's Saturday?!? Trick-or-Treat is tomorrow.. #ruined 🤔😣😓😢😭",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm very sorry about this! Can you tell us the carrier for your order? You can find that here:https://t.co/Y5jpI9gRhE.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-064",
+    "customer_query": "Waited in all day for a prime delivery that still hasn't arrived. Really not impressed.",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry your order hasn't arrived yet! We deliver until 9 PM, so it may still be on the way. What does the latest tracking update show here: https://t.co/PEiyeQSKte?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-065",
+    "customer_query": "Plz make easy ur return and refund process easy. Im so frustated with ur poor service. Improve guys. And plz remove ur fraud sellers",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Looks like you are upset with our services and I'm sorry about it. We'd like to know what went wrong. Please let us know, we'll be glad to help.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-066",
+    "customer_query": "I just found out today that my account was hacked and the email address was changed. Is there anyway to get it back?",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Oh my! We'd like to look into this with you, can you please contact us here? https://t.co/hApLpMlfHN",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-067",
+    "customer_query": "Dear If fails, yet again, to deliver a parcel on time can I have my annual Prime membership fee refunded. It's getting beyond a joke now.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello, If you've used your Amazon Prime benefits prior to requesting cancellation, a refund cannot be made. Are you having a problem with an ongoing delivery?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-068",
+    "customer_query": "You pay for an Amazon Prime membership and this is where your packages are left whilst you’re at work 😤 #NotImpressed https://t.co/UEvbve6G0I",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to see the way your package was delivered! Will you confirm the carrier listed here: https://t.co/aaDyEz1VgE",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-069",
+    "customer_query": "I ordered book, it arrived damaged so I ordered a replacement which has also arrived damaged and marked. I want this book, but now am very disappointed that both books have arrived ripped. Could this be a manufacturing fault? Please resolve, Lauren.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry that the book arrived that way! Please reach out to us here: https://t.co/JzP7hlA23B so we can explore what options you have together.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-070",
+    "customer_query": "just accidentally pressed cancel order on something that’s arriving tomorrow - how do I fix this?! 😫",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Did we send you a confirmation email that the order successfully canceled? Please check here: https://t.co/9KlbcNfhkM",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-071",
+    "customer_query": "hi, why has my order’s arrival been delayed by “a day or two”?",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We don't have direct access to your account to check the order details! You can reach us here: https://t.co/JzP7hlA23B",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-072",
+    "customer_query": "just had an email saying my Now delivery was refused at 21:01, but your driver never attempted delivery! 😡",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry it wasn't delivered. Please contact us through the main menu in the app or here: https://t.co/N4lEzD4TJo",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-073",
+    "customer_query": "Why won't you guys help take care of this situation? I am being scammed out of $8,100.00 I made .com",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Just to confirm, are you a seller on Amazon? Have you been in contact with our Seller https://t.co/dDMFQAmeWl?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-074",
+    "customer_query": "order suppsd to be delivered oct, still hvnt recieved. Dis is lst tym I'm buying anything frm Amazon. Worst service ever https://t.co/TBNwcS8YI8",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "Sorry for the experience you had. I’d like to help you.Please fill this form: https://t.co/beaaDm0muc and I’ll contact you soon",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-075",
+    "customer_query": "Hey, so is it normal that a delivery date is postponed two times and that you have to wait 13 days (still counting) for an item that was in stock?",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the delay. We strive to meet the delivery date provided in your confirmation e-mail. Sometimes there are unexpected delays. Were you provided with a new delivery date?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-076",
+    "customer_query": "hi will you be running the discounted prime membership as a part of your black Friday/cyber Monday deals this year?",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, please keep an eye on the website for all the deals this year!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-077",
+    "customer_query": "Every month I receive debits of $ 2.99 on my credit card from Amazon Digitalsvcs. I've been complaining for months and until today I did not have a solution or a refund",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hey Said, what were you advised when you previously contacted us? Which one of our sites do you use, https://t.co/quHyvUMZO9 another?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-078",
+    "customer_query": "Wondering when you purchase a gift card through your Amazon account... is that an electronic gift card (aka code) or a physical gift card?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Thanks for reaching out! We have both physical cards and electronic copies available. More info here: https://t.co/02CZpMyZR4",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-079",
+    "customer_query": "Need to report a fraud/scam using the Name of Amazon.. How to report?",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Please let us know more here. We will assist you with it accordingly.",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-080",
+    "customer_query": "Got to laugh u order something for an xmas gift and it says delivery dec 27th now that’s what we call speedy delivery will never use again useless",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello, sorry to hear about the long delay. Was this particular item sold directly by us or a third party seller ?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-081",
+    "customer_query": "My seems to have been hacked! 30 minutes on the phone seems like a waste of time, the poor call taker seemed out of her depth. Was told it would be investigated but couldn’t get a case number. I am not filled with confidence. #blackfridayblues",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm so sorry for the lack of reassurance that this is being looked into. We do not have case numbers for this, however you should expect an e-mail from our Account Specialists shortly.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-082",
+    "customer_query": "Bought an Amazon Fulfilled\"product and Amazon proved how its pathetic service and products sucks. And to add this Amazon return policy gave more mental disturbance. Broken seal, open box, no warranty, and operational card. https://t.co/CbiHFaAs4a",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Truly sorry for the experience you had with this order. Please reach out to our support team here: https://t.co/vlvfJr4nN9 and we'll have this checked for you.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-083",
+    "customer_query": "The last update, 7.18.0.1, won't let me open any books on my Note 5. It force closes everything.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry the app closes out on you! Please reach us via phone or chat for troubleshooting: https://t.co/EKXRLsnxJu",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-084",
+    "customer_query": "#amazonprime is a scam. I’ve never gotten anything in two days",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Two-Day Shipping refers to transit time, in business days, after an order ships. Have we missed the date at checkout?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-085",
+    "customer_query": "Hey guys, you've taken money for an Amazon Prime membership which I never signed up for - who can I speak to about this?",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi- Did you perhaps have a free trial with us recently? You should be able to cancel directly via: https://t.co/db9agOACy9",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-086",
+    "customer_query": "been hacked again with 48 hour you have clearly sold people detail. #productionmanager",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Hi, sorry to hear that, please contact us here: https://t.co/zYVX1Qi29G so an agent can look into this for you.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-087",
+    "customer_query": "my 2 parcels were delivered monday and received one 2 days ago. 1 missing or delayed??? both from amazon",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry you haven't received one of your parcels, Michael! What is the latest order status showing for the parcel here: https://t.co/aaDyEz1VgE ?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-088",
+    "customer_query": "just 5 minutes back delivery Damaged Product received Order Id: 171-9346811-1698704 https://t.co/REooDQ326H",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please don’t provide your order details as it is personal information. Our page is visible to the public.2/2",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-089",
+    "customer_query": "Opened the 4k TV I got from last week and it has a visible flaw in the screen. I wasn't expecting perfection for $298, but I wasn't expecting the hassle of trying to return a 50\" TV, either. Disappointed and annoyed. :(",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry your TV came in that condition. We do have different return options, including UPS Pick up: https://t.co/wyNP5wXKxG.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-090",
+    "customer_query": "10 day old defective oneplus5 sold by Amazon. Service centre says mother board shld be replaced. I demand a replacement mobile.pls help.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the experience. Request you to report this to our support team here: https://t.co/vlvfJr4nN9 so that we could assist you in a better way.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-091",
+    "customer_query": "I Need help with my prime membership please",
+    "conversation_history": [
+      "Customer: Thank you",
+      "Support: We're always happy to help where we can! 🤗"
+    ],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Without revealing account or personal details, can you tell us more about the issue?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 3
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-092",
+    "customer_query": "Anyone else having consistent delivery issues with ? Stuff saying delivered but shows up next day? Wrong items being tracked? https://t.co/apyeK4oDEh",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to hear about the delivery troubles! Are you seeing this occur with a specific carrier? We'd like to help!",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-093",
+    "customer_query": "Order #405-6870644-6019532.. order is over 15 days delayed. Big purchase #WashingMachine. Can you help ? #Discount!! https://t.co/BaYgoOfLkw",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please don't provide your order details, we consider it to be personal info. Our page is visible to the public. 2/2",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-094",
+    "customer_query": "how many days does it take to deliver a 2 day guaranteed shipping purchase? Do I️ get refunded on day 4? #NoService",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, Craig. To confirm, have we missed the delivery date provided in your order confirmation e-mail? You can also see your messages here: https://t.co/uEhMeRkTSB",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-095",
+    "customer_query": "I ran out of cat litter last night.It’s ok! I’m on #amazonprime !It can be here tomorrow!UNTIL THE DELIVERY DRIVER SPLITS THE BAG EVERYWHERE",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! I'm sorry to hear you didn't receive your cat litter! Have we been able to provide any options? Let us know!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-096",
+    "customer_query": "hi, I wasn't provided a return ship label for damaged package and don't see option on website",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Are you able to create a label through the Online Returns Center here: https://t.co/FRsodhtXKJ? Please keep us posted!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-097",
+    "customer_query": "when will I get my refund or claim refund from seller ? Faulty roduct have been couriered to them and was delivered 4 days back.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the trouble caused over this order. Please connect with our support team here: https://t.co/2t6DQoUmNZ",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-098",
+    "customer_query": "So I've waited in for my items. Not received them even though carrier has lied and said delivered by \"handed to resident\". Items are being resent to be delivered tomorrow, and I can't be in all day tomorrow. No doubt I'll miss my items.",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Critical delivery failure or high customer distress requiring supervisor intervention or courier tracer.",
+    "reference_response": "When you spoke with us by phone, what was advised, Carrie?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-099",
+    "customer_query": "Hey, I ordered my $20 gift card from you on Oct. 30th, & it's STILL not fulfilled yet. Still says \"out of stock.\" Who's fault here, Valve or Amazon? Can I just get it sent to me, please? It's a card, guys, not a yacht. Thanks. :)",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry your item is out of stock! If you've already placed an order, we'll send an e-mail as soon as we have more information. You can find out more about item availability here: https://t.co/2LLnaQIehT. I hope this helps!",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-100",
+    "customer_query": "Ever thought about trying to save the planet ?!!!! Insane waste of paper, not to mention a bloody nightmare to carry! #amazon https://t.co/WIVJ2N5g1G",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We're always looking to improve! You can help us out by sending your packaging feedback here: https://t.co/fI0d17S4HG",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-101",
+    "customer_query": "my name is Avelino Baptista Amazon lost my products and they wouldn't refund me back my money.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi there- Without providing personal info can you explain further what has happened? We would like to help.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-102",
+    "customer_query": "To top my day off Amazon charged me $100 for a prime account I didn't even know I had lol",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We'd like to help with this if we may! You can learn how to end your Prime Membership here: https://t.co/EVHHXIyYEn",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-103",
+    "customer_query": "My one month subscription of kindle unlimited has expired. But still it allows me to borrow books. ??????????",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That's odd. Please connect with us here: https://t.co/mnOpUOQIhf and we'll check this out for you.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-104",
+    "customer_query": "Hi, was charged twice for amazon prime and I don't even have it. Help please",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry about the unexpected charge. We can't access your account from Twitter but we can look into this with you here: https://t.co/hApLpMlfHN",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-105",
+    "customer_query": "returned 2 items together but keep getting email saying you never received one of them? they both were in the same package.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for this issue. Did you print out return labels for both items or select returning multiple items when you initiated the process?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-106",
+    "customer_query": "How can my order disappear from the shopping cart ? Bhoot aya tha kya? 😂😂😂",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That's strange! At times, it may happen when the product goes out of stock with the seller. Please try adding the product with a different seller. Keep us posted for further assistance.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-107",
+    "customer_query": "Cheated by I had prblm rgrdng my pymt not cnvrtd to no cost emi. I had sent 2 mails and both diff replies. What to do? https://t.co/SJr63dGfYt",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Apologies. We'd like to check this for you. Please fill this form: https://t.co/beaaDm0muc and I’ll contact you soon.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-108",
+    "customer_query": "Hello, one question. Bought two gift cards at GameStop. Will they apply to my preorder detail before Amazon charge and ship?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "If you have the gift cards issued to your account, then you'll be given the choice of payment options at checkout.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-109",
+    "customer_query": "Still not received my Cashback after 2 months.Contacted 13 times to customer support.",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "and we'll reach out to you. (2/2)",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 3,
+      "empathy": 3,
+      "actionability": 3,
+      "overall": 3.0
+    }
+  },
+  {
+    "id": "GOLD-110",
+    "customer_query": "I manage to get into my account but you’re still blocking my purchases.",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the delay. We don't have access to your account via Twitter. Would you please let a member of our team assist via phone? This link can be used to contact us: https://t.co/0nB5OiTSrj -SE",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-111",
+    "customer_query": "your service has made me completely hate your company. I will never order on it. My order reached my city 4 days ago, still 1/3",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Apologies for the inconvenience. Did we happen to miss the estimated delivery date provided on the order?",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-112",
+    "customer_query": "a book I ordered was left with a neighbour but they seem to have been away since the delivery. I ordered the book to read on holiday but won't be able to now. Frustrating.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry to hear about this! Can you please let us know which carrier was assigned to deliver your order? You can find this information under tracking details here: https://t.co/qy3J24VGxb",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-113",
+    "customer_query": "worst experience even though dropping a mail to CEO - Mr. Jeff, no revert yet on my iPhone order no. 406-0079665-5215509",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "Please don’t provide your details as we consider them to be personal information. Our Twitter page is public. 3/3",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-114",
+    "customer_query": "What's the point of Amazon prime if you don't get it on the guaranteed delivery date?!?",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the wait! To confirm, have we missed the delivery date specified via e-mail: https://t.co/HehkdM4O5P? If so, what does the latest tracking scan show when you view your order here: https://t.co/Y5jpI9gRhE? Please keep us in the loop!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-115",
+    "customer_query": "I have still not received the invoice for my product which was delivered on 27th Sep...Kindly send me the invoice ASAP",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That's odd. Have you tried printing a new invoice from here https://t.co/VIGJ4FMefq?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-116",
+    "customer_query": "worst experience wit you guys twice in 2 weeks time. OnePlus 5 delayed and now headphones as well + Delivery guy talking rudely.",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Critical delivery failure or high customer distress requiring supervisor intervention or courier tracer.",
+    "reference_response": "Please get in touch with our team using this link: https://t.co/rS49hgaADF and we'll be happy to help. (2/2)",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-117",
+    "customer_query": "The delivery guy didn't even open my front gate. Just tossed my new keyboard on the concrete. If this thing is damaged... Even doesn't do stuff like that.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I am so sorry for the poor experience! We would like to look into this issue with you in real-time! Please contact us here: https://t.co/XW5sEJBW3W",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-118",
+    "customer_query": "Why take money for prime membership even if you can't deliver order after 3 days of promised date. https://t.co/vPMENaGzLf",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We're sorry about the miss, Bhisham. Please report this here: https://t.co/vlvfJr4nN9 and we'll check.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-119",
+    "customer_query": "Hey please pay my seller funds which has been held for over 115 days! __email__ https://t.co/RrNZ0KyIUE",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry you haven't received your funds yet. What kind of insight were you given when you spoke with seller support?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-120",
+    "customer_query": "when your working day will start and you will arrange for the return. https://t.co/thFVTztuyP",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "we'll look into it and get back to you soon. 2/2",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-121",
+    "customer_query": "please stop sending me soft cover books in soft envelopes. #Amazon #commonsense #crackedspines May stop ordering...",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We’re always looking to improve, and would love for our Packaging team to hear about this: https://t.co/SNLy6BpJAg",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-122",
+    "customer_query": "Amazon Prime: \"Order within this timeframe for guaranteed two-day shipping\" Also Prime: \"Aye bruh your shit's delayed a day or two\"",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the wait! When you have time send the order details: https://t.co/hApLpMlfHN. We can look into options",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-123",
+    "customer_query": "Hi. Your online and phone customer service stinks. Thought I'd try you here. I'm locked out of the app and online and I've lost my card but I can't reset my password without it. Sucks to have both happen at the same time but it has. What do I do?",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for the poor experience. When you contacted in, what options were offered?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-124",
+    "customer_query": "Another Sunday playing Chicken with the Amazon logistics driver. I need to go out and get milk, but I need to wait for my parcel.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "sorry to hear that, do you have a safe delivery place specified?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-125",
+    "customer_query": "I think is broken? Next day/ 1 day delivery does not mean Monday if I order on Friday https://t.co/mIirDLf0KI",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hey. Next day delivery is calculated from when an order dispatches. Check out here for more info : https://t.co/KQaamplXkT",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-126",
+    "customer_query": "Thank you . As a co, you truly excelled this week. Great customer service & a quick,efficient resolution to damaged goods,well done",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Aw yay! While it's horrible that something went wrong, I'm delighted that we could help :)",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-127",
+    "customer_query": "I am in awe of how unwilling / is to help with a 3rd party storefront order. Worst service I've ever experienced. I purchased a phone from them, and they simply have refused to deliver it. And I don't even get refunded until it's too late. Unacceptable.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "I'm so sorry for the frustration with your order from our third-party seller. Could you tell us a bit more about what's going on? What options did we provide when you contacted us?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-128",
+    "customer_query": "Currently locked out of my Amazon account because someone changed my email. Amazon gave me no advanced notice...",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for the frustration! You can reach out to use by e-mail regarding your account here: https://t.co/jzvkhdlrK5",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-129",
+    "customer_query": "Told when ordered item would be delievered today on Prime. Now informed tomorrow or Tuesday. Not happy!",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry for this delay. Have you had a chance to let us look into options: https://t.co/JzP7hlA23B",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-130",
+    "customer_query": "my account has been compromised, I see some russian email address registered with my phone no.",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Help us with your info here: https://t.co/vlvfJr4nN9, we'll assist you on this.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-131",
+    "customer_query": "Hello, I have a prime membership but I don't get anything in less than 3 days. Why so?",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Certain products are not eligible for guaranteed delivery due to courier constraints for certain pincodes.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-132",
+    "customer_query": "what happened to us? You used to be so good to me, always showin up on time. Now you're always late, never let me know where you are",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We're sorry we let you down! Is this regarding multiple late shipments? Is it the same carrier?",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-133",
+    "customer_query": "Amazon said shipment delayed..... I need my stuff today, now. I paid extra for one day shipping!!!!!",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry for the delay! Have we missed the delivery date given in checkout? https://t.co/Y5jpI9gRhE",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-134",
+    "customer_query": "I'm glad the last 2 packages I've ordered with Amazon Prime have either gotten lost or been delayed. What's the point of having Prime",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to see this! Will you tell us who the carrier is for your two orders? You can look here: https://t.co/Y5jpI9gRhE",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-135",
+    "customer_query": "is there a completely different returns policy for items in Warehouse Deals? Also when the description says this: \"Item in original packaging. Packaging will have cosmetic damage.\" - does it mean the products branded packaging or the outer cardboard box?",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Our Warehouse Deals have the same return policy as our other items: https://t.co/W3mscvB8W9 You can review the definition of product descriptions here: https://t.co/clf7S942F9",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-136",
+    "customer_query": "Didn’t get my order for micro max led tv placed on 23rd sep which is supposed to be delivered by 3rd oct now further moved to 7th",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the delay. May I know if you have reported this to our support team here: https://t.co/DRInCloFjc?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-137",
+    "customer_query": "ICICI Gave me a gift card RS(100) which is Invalid . is It not a Joke.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We would advise you to contact the vendor of the Gift Card. Do keep us posted with the outcome.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-138",
+    "customer_query": "it shwing estimate date is 4oct and now 22oct its over 1 mnth to this order but still i dnt get prdct or refund https://t.co/uiBlgrWwpm",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Apologies for the unexpected delay. Kindly reach out to our support team here:https://t.co/beaaDm0muc we'll look into it.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-139",
+    "customer_query": "can i get a refund for my purchase of #cuphead via ? i got scammed and there's nothing i can do about it... smh... https://t.co/MYQLC7443R",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "We'd like to look into our options with you. Please reach out to us by phone or chat here: https://t.co/EKXRLsnxJu",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-140",
+    "customer_query": "keep adding marathi movies... its the only way i can watch it... u guys doing a great job... hope to see more from u...",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "highlight the latest movies and TV shows we have available. I'll also forward your feedback internally to our team. 2/2",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-141",
+    "customer_query": "Order number 408-0895855-7941945. It's has been an hour to add money but not added yet .",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please don't provide your order details, we consider it to be personal information. Our page is visible to the public.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-142",
+    "customer_query": "Looks like have less than 5 mins before they miss their 5TH \"delivery attempt\" of a microwave, ordered on the 7th for next day delivery! Will they make it? Or leave me disappointed and burdened with another seemingly pointless helpline call? Stay tuned to find out.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry you haven't received your delivery. Please contact us directly via phone or chat to report this and explore options here: https://t.co/JzP7hlRCV9",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-143",
+    "customer_query": "Not once, or twice, but three separate times I've paid for Amazon one day shipping only to get my package after 2-3 days regardless...starting to feel like its a real scam",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Hey there! Are your packages arriving after the date displayed on your order confirmation?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-144",
+    "customer_query": "kids are changing songs which is repeatedly dropping sonos in favour for the dot they are talking to.",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the trouble you're experiencing! Just to clarify, the Dot is responding, but not over the Sonos?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-145",
+    "customer_query": "bought a book and didn't realise It was kindle edition, wanted hardback. Clicked refund. How long will that usually take?",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello Abigail! Refunds can take up to 3-5 business days. You can learn more about them here: https://t.co/xc1EOKpMDn",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-146",
+    "customer_query": "my order id 171-7834469-1805100. Tried to contact you guys. PAise to dedo mere atleast. You people have closed the order and i have not received any money yet. I have returned ur order. Receipt number. https://t.co/Og8Hg6JxVf",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please don’t provide your order details as we consider them to be personal information. Our page is visible to public. 2/2",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-147",
+    "customer_query": "Hello! My husband purchased a camera for my son on and we were charged twice for it. We called last night and the charge went from pending to processed... twice. How can we fix this, please? Thanks!",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Financial billing dispute or potential fraud requires human ledger audit and authorization reversal.",
+    "reference_response": "Hi. What was advised when in touch? Can you see only one order placed on your account? Are the charges identical?",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-148",
+    "customer_query": ". I don't want the bloody refund. Get me the book for which I had waited for a month and still u assured me that I ll get it . After having waiting for a month and u assuring me that it ll b delivered in the stipulated time . The very next u do this https://t.co/hqfNVBArSx",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We have responded to your query here: https://t.co/Kcgeg5eSCN. Please check and do the needful.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-149",
+    "customer_query": "Hi , we were gifted this £50 voucher. We spent a while mulling over #BlackFridayWeekend deals that we might want..but seeing as it's so cold & Xmas is near, we'd rather buy blankets for the homeless ☺️ Rather than us searching, what's the best deal you can make us? https://t.co/IAhO2sZz6k",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I was able to locate the following option available from one of our sellers: https://t.co/Uo6I7bcSR9. It's machine washable, durable, soft, and would provide lots of warmth! I hope this helps!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-150",
+    "customer_query": "2 months after buying some zero's, left ear piece not working! any way i can get an exchange? (bought from amazon)",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello, I am sorry to hear the product is no longer working correctly. Take a look at your return options for the product here :http:https://t.co/5RcjVPJgUP",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-151",
+    "customer_query": "So far today have had scam emails claiming to be , and now one saying its from . Fraudsters lie. Not conning me",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Here's some tips on how to identify whether an e-mail is from us: https://t.co/e3skdLOh3K I hope this information helps!",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-152",
+    "customer_query": "Order No 407-9836329-6838752, Melted chocolates received from LESSON: DO NOT BUY #chocolate from #Amazon India https://t.co/eTKzclWRhY",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry about the trouble with your order. Kindly report this to our support team, here: https://t.co/vlvfJr4nN9 1/2",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-153",
+    "customer_query": "Have an order shipped 10/4, and have yet to receive. Can you assist?",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hey Tommy, we're here to help! What is the current status of your order? You can check here: https://t.co/Y5jpI9gRhE",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-154",
+    "customer_query": "Why am I being charged for delivery when I am a prime customer and the item is in fact a prime item??",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the trouble. We'd like to try to help. Will you please send us a link to the item?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-155",
+    "customer_query": "Hey the music unlimited plan is a download music service or just streaming? - just asking for a friend... jejeje Thanks #SweetDeal #CyberMonday",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hey John. Check out here - https://t.co/VOf3igJQDT for a full list of the Prime Music unlimited benefits. Please reach out, should you have any more queries :)",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-156",
+    "customer_query": "do u have finance options cause my credit card not working i apply for duplicate but it takes long time",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "If you are interested in the https://t.co/nUUp5MLhYl Store Card, you can find out how to apply here: https://t.co/9Usjwixrpg You can also find information about the https://t.co/nUUp5MLhYl Rewards Visa Signature Card here: https://t.co/6dY2dZnOFF",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-157",
+    "customer_query": "Accidentally signed up for an amazon prime membership and didn’t realize it until I got the $50 bill in the mail so now it’s my goal to watch every single movie they offer 🙃🙃🙃🙃🙃🙃",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm so sorry for the unexpected charge! If you would like to cancel your Prime membership, you can do so here:https://t.co/IWlyOHRKJP",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-158",
+    "customer_query": "waiting since past 10 days for a return pickup and subsequent refund. Called twice, no positive response so far. Pls assist.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please fill this form: https://t.co/beaaDm0muc and We’ll contact you soon (2/2)",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-159",
+    "customer_query": "Several calls to customer care apprx 3 months waited but still Not getting refund 499 from #AmazonIndia __email__",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Please don't provide your account details,we consider it to be personal information. Our page is visible to the public. 2/2",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-160",
+    "customer_query": "I received a amazon.fr gift card but need the balance on my https://t.co/BDVJqZF8Wf account. How can I do this?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Amazon.fr gift cards can only be used on Amazon.fr and are not transferable.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-161",
+    "customer_query": "Quick question for . If a friend egifts me a gift card when they live in the uk will I still be able to receive and use it when I live in the US since it's digital?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi, our Gift Cards are website specific. This means that whilst you can still receive it, it can only be used on the site it was purchased from. It might be worth asking your friend to purchase an https://t.co/nUUp5MLhYl Gift Card instead. 🙂",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-162",
+    "customer_query": "Today, I booked a bus ticket of ₹1172 with coupon code\"REALKINGCB\" and made my 1st payment by . But I didn't receive CB ₹100 in amazonpay wallet as promised under the offer. Plz help.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I get your concern regarding the cashback. Cashback will be credited to redBus wallet within 48 working hours after the date of journey. For more info regarding the same, please go to the link here: https://t.co/nhl7hObsKK.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-163",
+    "customer_query": "I used to love Alexa, but last night both my wife and I almost smashed her. Alexa stops after every chapter in an audiobook, and when you ask her to resume she plays dumb and asks you to configure video services.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no, sorry to hear that. Have you tried restarting your Alexa device? Are the audiobooks from Audible or are they Kindle books?",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-164",
+    "customer_query": "It's official. needs to STAY OUT of the courier business! 8 orders delayed/undelivered in 2 weeks! still the best!",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We'd like to look into this. Please send us your details and any available information here: https://t.co/JUILhaXCgw",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-165",
+    "customer_query": "could you find out why my package keeps returning to Lehigh Valley? Lehigh is the work post office ever. 941081__credit_card__",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We appreciate you reaching out. We don't have access to your account over Twitter, but we'd like to help. Please contact us here so we can schedule a redelivery as well as forward your carrier feedback: https://t.co/EKXRLsnxJu",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-166",
+    "customer_query": "!Scam! - Amazon India has to get there act together - purchased a AO Smith 25 liter geyser and Kenstar 25 liter was delivered for the same price. Buy a Honda and Hyundai is delivered - how did a different product leave the warehouse, don’t have systems in place to check mistakes.",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "I'm sorry for this trouble. This was certainly not intended. Please connect with our support team here: https://t.co/2t6DQoUmNZ for further assistance on it.",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-167",
+    "customer_query": "2 packages were due today. 2 were scanned as delivered& the rep on the phone is telling me that the driver probably “scanned it as delivered because he doesn’t have a scanner” but I have to wait 24 hours past delivery date to see if it shows up. WHAT? Makes no sense!",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the poor experience! We're available to assist. Please let us know the outcome.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-168",
+    "customer_query": "I received a $15 promotional credit for purchasing gift cards, but I cannot figure out how to apply it. I received an email confirming this, but when I click the link to learn more about it, I am directed to the below screen. Can I get some help with this? https://t.co/rtSc1TCml3",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry you are having trouble. It will be automatically applied as long as the item is shipped and sold by Amazon. Here's a link that may also help: https://t.co/XHDLpkmxvu",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-169",
+    "customer_query": "defective product delivered, Amazon cannot replace the product because system is not allowing them for replacement.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Apologies for the inconvenience, Raghavendra. Just to confirm, is the product you are referring to a mobile phone?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-170",
+    "customer_query": "not that it matters with this order but this packaging is awful. It was shipped half open. https://t.co/G46SElfLCq",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "So sorry to see this! It does matter to us- thanks for bringing this to our attention. When you have a moment, would you mind passing your feedback along here: https://t.co/TH7UAFZey5?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-171",
+    "customer_query": "please help me. I loaded a visa gift card into my payment methods and the site won’t let me make purchases with it. Ideas?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hrm! That is rather strange Ian! When you try to use the card, what error message do you get? Have you checked to make sure you entered in all of the relevant data correctly when you registered the card?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-172",
+    "customer_query": "Why should I pay 50 bucks each time your delivery executives come to pick up defective products you shipped? 1/2",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We do not encourage that, sorry to know. Please report this here: https://t.co/vlvfJr4nN9 and we'll escalate this.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-173",
+    "customer_query": "Hi , you guys told me to send you a fax with my billing card statement but I don't have access to one atm. Any alternate method?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry for the trouble with your account! You're welcome to reach out to us here: https://t.co/jzvkhdlrK5",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-174",
+    "customer_query": "When scamming goes wrong 🤦🏽‍♀️ Amazon just charged me 100$ and idk from which account 🤦🏽‍♀️",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Oh no! Sorry for the trouble! Have you had the chance to review these helpful steps for identifying unknown charges: https://t.co/d0po8r57tx?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-175",
+    "customer_query": "Need help with #404-0478690-3497146. Faced very bad customer service. Trust being broken. #Unsatisfied",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "on it. Please don’t provide your order details as we consider them to be personal info. Our page is public. [2/2]",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-176",
+    "customer_query": "Unable to redeem my gift card..unable to reach yr customer service..how on earth do you expect me to continue shopping with you?",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry to hear about the Gift card redemption issues; you can try reaching out to support team using the link here: https://t.co/T6y6Xlutbs and keep us posted in case you face any trouble contacting them. We'll check this further for you.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-177",
+    "customer_query": "Y'all, Amazon prime now cancelled my order and didn't even show up, the hell",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We're sorry you didn't receive your order. What does the order status currently show? Order information can be located here: https://t.co/aaDyEz1VgE",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-178",
+    "customer_query": "when it will start streaming in India? https://t.co/JsDrA8FhZW",
+    "conversation_history": [],
+    "ground_truth_intent": "ORDER_TRACKING_AND_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We haven't made any announcement on this title being available on Amazon.in. However, I'll be sure to share your preference internally for further consideration. Kindly stay tuned; appreciate your understanding.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 4,
+      "actionability": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "GOLD-179",
+    "customer_query": "Lost my 2FA device. But the alternative login page gives a 404. https://t.co/RGNOx0t2Nz So I’m locked out :(",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Is this regarding your AWS account? If so, please reach out to us here: https://t.co/mSCfX5E5iL",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-180",
+    "customer_query": "Just got off the phone with and they were of no use. I have no clue when my iPhone X will be delivered to me. #iphonex",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "If the order has been successfully placed, you can check the estimates and track it here: https://t.co/E6Rur91Vzf.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-181",
+    "customer_query": "sent an email stating my account was hacked. I’ve yet to receive a response. Thanks for allowing someone else have access to my account and information. Feeling safe knowing y’all don’t give a fuck about your customers.",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "Hey Layne! We can help in real time with a quicker response via phone or chat. Please contact us here: https://t.co/jzvkhdlrK5",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-182",
+    "customer_query": "The whole perk of Prime is 2 day shipping. Routinely my 2 day packages are delayed, with no compensation or improvement in the process. So what am I paying a premium for!? #byeamazon",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the delivery delays on your orders! Are you noticing this trend with one specific carrier or many? You can find carrier information here: https://t.co/Y5jpI9gRhE. Please let us know! We're here to help.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-183",
+    "customer_query": "Requested the books I ordered be left with a neighbour. Driver left them in a bin in the rain 😔 safe to say they’re a bit soggy!",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry your books were damaged. We'd like to look into this with you here: https://t.co/qy3J24VGxb",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-184",
+    "customer_query": "had an email form you saying card declined, tried again and now you have taken the money twice!",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hello, the first charge could be an authorization charge. Have a look at the following link:https://t.co/GECpkOlX5M",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-185",
+    "customer_query": "Does Amazon pay for shipping on international returns? Its illogical if I pay shipping for a product costing $32. I'm in India.",
+    "conversation_history": [],
+    "ground_truth_intent": "REFUND_AND_RETURN_STATUS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Are you referring to an order placed on Amazon.in?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-186",
+    "customer_query": "your locker in Perivale, #AmazonHarp is still not working. When will you fix this? It still seems to be taking deliveries https://t.co/vj3Ue2rmaf",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Oh no! Let's talk about this in real time. Please call or chat with us here: https://t.co/N9xgQ6NMAo",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-187",
+    "customer_query": "sir many people have done fraud in your site they order amazon egv by hacked credit card sir cancel all the order Proof available https://t.co/NO3WyCkcZc",
+    "conversation_history": [],
+    "ground_truth_intent": "ACCOUNT_AND_SECURITY",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account security, potential breach, or login lockout requires direct human verification and secure recovery.",
+    "reference_response": "We'd like to have a look at this. Kindly share your details here: https://t.co/beaaDlIL5C",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-188",
+    "customer_query": "WTH guys! I've been trying to return a faulty product since 7th Oct but haven't gotten a response yet! Not acceptable!",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "We apologize for the inconvenience. Please share your details here: https://t.co/GIJyeYqKE0 and we'll check this.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-189",
+    "customer_query": "I have place a replacement request for faulty Moto G5s Plus. Still pending, should have been picked up on 7 September.",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Our apologies for the delay. Did you happen to report this to us here: https://t.co/vlvfJr4nN9?",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-190",
+    "customer_query": "why not able to add gift voucher received from Yippee",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "and also the error message you see while adding it to your account. (2/2)",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-191",
+    "customer_query": "Great job trying to cheat by delivering a damaged and opened Apple MacBook Air!!",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That's unusual! I'm sorry for the unpleasant experience. We'd like to have a look into this. May I know if you've reported this to our support team here:https://t.co/vlvfJr4nN9?",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-192",
+    "customer_query": "Received Amazon Pantry delivery with a broken seal. Would it be okay to use the product? 🤔 #India https://t.co/H4OwGi91XJ",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Sorry to hear that, Piyush. If you are skeptical about the product you may return it by contacting our support team here: https://t.co/vlvfJr4nN9.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-193",
+    "customer_query": "Recent Prime order not received. says delivered. How to obtain proof of posting needed to claim from ? Thx.",
+    "conversation_history": [],
+    "ground_truth_intent": "LATE_OR_MISSING_DELIVERY",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm sorry for the poor delivery experience! Have you tried the steps listed here: https://t.co/sMu51SlSdj? Let us know!",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-194",
+    "customer_query": "I was a happy customer of Amazon till I purchased headphones. Worst quality ever.never expected this from .. thinking of cancelling all my rest order. Really not accepted this..how u can compromise in quality of product",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "My apologies for the experience you've had, Manu. We never wanted you to be in such a situation. Could you please let us know what went wrong so that we can assist you accordingly.",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 4,
+      "empathy": 3,
+      "actionability": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "GOLD-195",
+    "customer_query": "Wasting my entire day off waiting for an delivery. Really glad I pay for #Amazonprime now. I feel like I’m getting prime service with a 15 hour delivery window! 😐 #amazondelivery",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I'm very sorry your order is taking longer than expected, Sarah! What is the latest tracking status showing for the order? You can find that here: https://t.co/aaDyEz1VgE",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 4,
+      "actionability": 5,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "GOLD-196",
+    "customer_query": "Canceled my BF Prime order because Shipping address is undeliverable. Really? Can’t you notice how many other prime orders are delivered to the SAME Address ? You have a serious problem with your shipping.",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "That is odd! If you review your order history here: https://t.co/Y5jpI9gRhE, Which carrier was assigned the delivery of that order, as shown in the order details.",
+    "metadata": {
+      "sentiment": "negative",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-197",
+    "customer_query": "Please find attached the image of the damaged coolpad phone, which was damaged while delivery, there was no proper packaging or bubble wrap, its so carelessly packed. https://t.co/3PaAHQHzem",
+    "conversation_history": [],
+    "ground_truth_intent": "DAMAGED_OR_WRONG_ITEM",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High-value damaged / tampered shipment requires specialist escalation and carrier investigation.",
+    "reference_response": "Apologies. Kindly reach out to our support team here: https://t.co/vlvfJr4nN9 and we'll assist you accordingly.",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "medium",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-198",
+    "customer_query": "how do I get my 2nd echo dot to stop answering in the other room when I ask my 1st one that's closer to me a question?? Thanks!",
+    "conversation_history": [],
+    "ground_truth_intent": "GENERAL_FEEDBACK_OR_CHITCHAT",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "I had this happen with my two Echo devices, too! The easiest way I've found is to change the wake word on one of the Echos. Just follow the steps here: https://t.co/rqXbYi3rRy",
+    "metadata": {
+      "sentiment": "positive",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-199",
+    "customer_query": "how to do I stop my prime after the free trail exposes so I don't get charged",
+    "conversation_history": [],
+    "ground_truth_intent": "PRIME_AND_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "escalation_reason": "Standard self-serve inquiry resolvable via automated policy guidance, tracking portals, or returns links.",
+    "reference_response": "Hi- You can select 'do not continue', explains further here: https://t.co/Gx9Zeg5f3t",
+    "metadata": {
+      "sentiment": "neutral",
+      "difficulty": "easy",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "GOLD-200",
+    "customer_query": "Meanwhile I have $15 in credits that are useless because even their own customer service reps don't know how they work... Everything online says \"automatically applied\" but the email from customer service says \"enter promo code.\" What promo code? It's a credit.",
+    "conversation_history": [],
+    "ground_truth_intent": "PAYMENT_AND_PROMOTIONS",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Severe customer dissatisfaction requiring human de-escalation.",
+    "reference_response": "Promotional credits don't have a code and are automatically applied to eligible orders during checkout. More information here: https://t.co/KfOUelEz1F. Was the agent able to confirm the $15.00 was on your Amazon account?",
+    "metadata": {
+      "sentiment": "furious",
+      "difficulty": "hard",
+      "turn_count": 1
+    },
+    "human_judge_calibration": {
+      "grounding": 5,
+      "empathy": 3,
+      "actionability": 5,
+      "overall": 4.4
+    }
+  }
+]
